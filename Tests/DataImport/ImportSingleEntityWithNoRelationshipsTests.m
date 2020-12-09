@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord.h>
 #import "FixtureHelpers.h"
 #import "SingleEntityWithNoRelationships.h"
 

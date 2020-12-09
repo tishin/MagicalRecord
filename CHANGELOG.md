@@ -34,9 +34,9 @@ This release fixes an issue where the OS X framework was being built with instru
 * Enabling shorthand category method names can now be done by importing:
     
     ```objective-c
-    #import <MagicalRecord/MagicalRecord.h>
-    #import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
-    #import <MagicalRecord/MagicalRecordShorthandMethodAliases.h>
+    #import <MagicalRecord.h>
+    #import <MagicalRecord+ShorthandMethods.h>
+    #import <MagicalRecordShorthandMethodAliases.h>
     ```
     Then calling `+[MagicalRecord enableShorthandMethods]`.  
     [See the documentation in the wiki](https://github.com/magicalpanda/MagicalRecord/wiki/Installing-MagicalRecord#shorthand-category-methods).

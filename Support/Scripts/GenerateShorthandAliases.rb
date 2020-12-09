@@ -256,8 +256,8 @@ headers = generateHeaders(ARGV[0], false).collect &:compact
 # implementations = generateImplementations(ARGV[0]).collect &:compact
 
 File.open("#{output_file}.h", "w") { |file|
-    file.write("#import <MagicalRecord/MagicalRecord.h>\n")
-    file.write("#import <MagicalRecord/MagicalRecordDeprecationMacros.h>\n\n")
+    file.write("#import <MagicalRecord.h>\n")
+    file.write("#import <MagicalRecordDeprecationMacros.h>\n\n")
     file.write(headers.compact.join("\n"))
 }
 

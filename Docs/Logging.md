@@ -22,7 +22,7 @@ If it's available, MagicalRecord will direct its logs to [CocoaLumberjack](https
 ```objective-c
 // Objective-C
 #import <CocoaLumberjack/CocoaLumberjack.h>
-#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord.h>
 ```
 
 ```swift

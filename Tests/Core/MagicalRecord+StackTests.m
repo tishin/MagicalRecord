@@ -6,7 +6,7 @@
 #import <XCTest/XCTest.h>
 #import <CoreData/CoreData.h>
 
-#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord.h>
 #import "MagicalRecordTestHelpers.h"
 
 @interface MagicalRecordTests : XCTestCase

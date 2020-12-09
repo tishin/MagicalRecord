@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     sp.exclude_files = '**/MagicalRecordShorthandMethodAliases.h'
     sp.prefix_header_contents = <<-EOS
     #import <CoreData/CoreData.h>
-    #import <MagicalRecord/MagicalRecord.h>
+    #import <MagicalRecord.h>
     EOS
   end
 

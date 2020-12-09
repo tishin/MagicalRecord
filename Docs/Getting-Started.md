@@ -4,7 +4,7 @@ If you're using CocoaPods or MagicalRecord.framework, your import should look li
 
 ```objective-c
 // Objective-C
-#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord.h>
 ```
 
 ```swift

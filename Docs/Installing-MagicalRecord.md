@@ -32,7 +32,7 @@ One of the easiest ways to integrate MagicalRecord in your project is to use [Co
     ````
 
 2. In your project directory, run `pod update`
-3. You should now be able to add `#import <MagicalRecord/MagicalRecord.h>` to any of your target's source files and begin using MagicalRecord!
+3. You should now be able to add `#import <MagicalRecord.h>` to any of your target's source files and begin using MagicalRecord!
 
 ## Using an Xcode subproject
 
@@ -50,7 +50,7 @@ Xcode sub-projects allow your project to use and build MagicalRecord as an impli
 3. Navigate to your project's settings, then select the target you wish to add MagicalRecord to
 4. Navigate to **Build Phases** and expand the **Link Binary With Libraries** section
 5. Click the **+** and find the version of the MagicalRecord framework appropriate to your target's platform
-6. You should now be able to add `#import <MagicalRecord/MagicalRecord.h>` to any of your target's source files and begin using MagicalRecord!
+6. You should now be able to add `#import <MagicalRecord.h>` to any of your target's source files and begin using MagicalRecord!
 
 > **Note** Please be aware that if you've set Xcode's **Link Frameworks Automatically** to **No** then you may need to add the CoreData.framework to your project on iOS, as UIKit does not include Core Data by default. On OS X, Cocoa includes Core Data.
 
@@ -62,9 +62,9 @@ If you like, you can include the following headers to use shorter, non-prefixed 
 
 ```objective-c
 // Objective-C
-#import <MagicalRecord/MagicalRecord.h>
-#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
-#import <MagicalRecord/MagicalRecordShorthandMethodAliases.h>
+#import <MagicalRecord.h>
+#import <MagicalRecord+ShorthandMethods.h>
+#import <MagicalRecordShorthandMethodAliases.h>
 ```
 
 ```swift

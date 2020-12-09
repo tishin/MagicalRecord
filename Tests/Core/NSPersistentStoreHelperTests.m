@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord.h>
 #import "MagicalRecordTestHelpers.h"
 
 @interface NSPersistentStoreHelperTests : XCTestCase
